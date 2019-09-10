@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediecodectest.api.audio;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
@@ -23,6 +23,10 @@ public class AudioEncoder {
 
     public interface OnAudioEncodedListener {
         void onFrameEncoded(byte[] encoded, long presentationTimeUs);
+    }
+
+    public void setAudioEncodedListener(OnAudioEncodedListener audioEncodedListener) {
+        mAudioEncodedListener = audioEncodedListener;
     }
 
     public boolean isOpened() {

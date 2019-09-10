@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediecodectest.api.audio;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;

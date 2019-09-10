@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediecodectest.api.audio;
 
 import android.media.AudioFormat;
 import android.media.AudioRecord;
@@ -40,7 +40,7 @@ public class AudioCapture {
         return startCapture(DEFAULT_SOURCE, DEFAULT_SAMPLE_RATE, DEFAULT_CHANNAL_LAYOUT, DEFAULT_DATA_FORMAT);
     }
 
-    private boolean startCapture(int audioSource, int sampleRateInHz, int channelConfig, int audioFormat){
+    public boolean startCapture(int audioSource, int sampleRateInHz, int channelConfig, int audioFormat){
         if (mIsCaptureStarted){
             return false;
         }
