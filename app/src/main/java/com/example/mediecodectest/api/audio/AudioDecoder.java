@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediecodectest.api.audio;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecInfo;
