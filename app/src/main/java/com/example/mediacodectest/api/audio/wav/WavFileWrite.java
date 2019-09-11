@@ -1,4 +1,4 @@
-package com.example.mediecodectest.api.audio.wav;
+package com.example.mediacodectest.api.audio.wav;
 
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;

@@ -1,9 +1,9 @@
-package com.example.mediecodectest.api.audio.tester;
+package com.example.mediacodectest.api.audio.tester;
 
 import android.os.Environment;
 
-import com.example.mediecodectest.api.audio.AudioPlayer;
-import com.example.mediecodectest.api.audio.wav.WavFileReader;
+import com.example.mediacodectest.api.audio.AudioPlayer;
+import com.example.mediacodectest.api.audio.wav.WavFileReader;
 
 public class AudioPlayerTester extends Tester  {
 

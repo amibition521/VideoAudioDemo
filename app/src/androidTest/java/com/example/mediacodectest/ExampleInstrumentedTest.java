@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediacodectest;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

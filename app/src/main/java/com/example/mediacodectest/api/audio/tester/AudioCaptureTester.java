@@ -1,13 +1,11 @@
-package com.example.mediecodectest.api.audio.tester;
+package com.example.mediacodectest.api.audio.tester;
 
 import android.media.AudioFormat;
 import android.media.MediaRecorder;
 import android.os.Environment;
 
-import com.example.mediecodectest.MediaCodecWrapper;
-import com.example.mediecodectest.api.audio.AudioCapture;
-import com.example.mediecodectest.api.audio.wav.WavFileHeader;
-import com.example.mediecodectest.api.audio.wav.WavFileWrite;
+import com.example.mediacodectest.api.audio.AudioCapture;
+import com.example.mediacodectest.api.audio.wav.WavFileWrite;
 
 public class AudioCaptureTester extends Tester implements AudioCapture.OnAudioFrameCapturedListener{
 

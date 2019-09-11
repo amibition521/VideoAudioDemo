@@ -1,10 +1,9 @@
-package com.example.mediecodectest.api.audio.wav;
+package com.example.mediacodectest.api.audio.wav;
 
 import android.util.Log;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

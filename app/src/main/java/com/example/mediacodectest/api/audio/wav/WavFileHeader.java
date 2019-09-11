@@ -1,4 +1,4 @@
-package com.example.mediecodectest.api.audio.wav;
+package com.example.mediacodectest.api.audio.wav;
 
 public class WavFileHeader {
     public static final int WAV_FILE_HEADER_SIZE = 44;
