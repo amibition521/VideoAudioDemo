@@ -1,4 +1,4 @@
-package com.example.mediecodectest.api.audio.tester;
+package com.example.mediacodectest.api.audio.tester;
 
 public abstract class Tester {
 

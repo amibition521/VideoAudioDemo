@@ -1,9 +1,9 @@
-package com.example.mediecodectest.api.audio.tester;
+package com.example.mediacodectest.api.audio.tester;
 
-import com.example.mediecodectest.api.audio.AudioCapture;
-import com.example.mediecodectest.api.audio.AudioDecoder;
-import com.example.mediecodectest.api.audio.AudioEncoder;
-import com.example.mediecodectest.api.audio.AudioPlayer;
+import com.example.mediacodectest.api.audio.AudioCapture;
+import com.example.mediacodectest.api.audio.AudioDecoder;
+import com.example.mediacodectest.api.audio.AudioEncoder;
+import com.example.mediacodectest.api.audio.AudioPlayer;
 
 public class AudioCodecTester extends Tester implements AudioCapture.OnAudioFrameCapturedListener,
         AudioEncoder.OnAudioEncodedListener, AudioDecoder.OnAudioDecodedListener {

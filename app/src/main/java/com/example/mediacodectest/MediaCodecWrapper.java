@@ -1,4 +1,4 @@
-package com.example.mediecodectest;
+package com.example.mediacodectest;
 
 import android.media.MediaCodec;
 import android.media.MediaCodecList;
